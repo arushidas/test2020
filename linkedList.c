@@ -97,4 +97,42 @@ return 1;
 }
 }
 else
+  exit(0);
+} else {
+switch(i)
+{
+case 1: printf("Enter the number to insert : ");
+scanf("%d",&num);
+insert(num);
+break;
+case 2: if(head==NULL)
+{
+printf("List is Empty\n");
+}
+else
+{
+printf("Element(s) in the list are : ");
+}
+display(n);
+break;
+case 3: printf("Size of the list is %d\n",count());
+break;
+case 4: if(head==NULL)
+printf("List is Empty\n");
+else{
+printf("Enter the number to delete : ");
+scanf("%d",&num);
+if(delete(num))
+printf("%d deleted successfully\n",num);
+else
+printf("%d not found in the list\n",num);
+}
+break;
+case 5: return 0;
+default: printf("Invalid option\n");
+}
+}
+}
+return 0;
+}
 
