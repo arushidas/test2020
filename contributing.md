@@ -1,11 +1,11 @@
-name: Arushi Das, 
+# name: Arushi Das, 
 place: India, 
-bio: B.Tech student  ||
+bio: B.Tech student  
 
-name: Mia, 
+# name: Mia, 
 place: India, 
-bio: student  ||
+bio: student  
 
-name: Lopa, 
+#name: Lopa, 
 place: India, 
 bio: freelancer
